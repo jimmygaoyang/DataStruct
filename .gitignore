@@ -1,0 +1,6 @@
+#ignorefile
+*.obj
+Debug
+*.ncb
+*.opt
+*.plg
