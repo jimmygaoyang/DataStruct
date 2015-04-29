@@ -75,10 +75,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ELemType.h" />
+    <ClInclude Include="SingleList.h" />
+    <ClInclude Include="SingleNode.h" />
     <ClInclude Include="SqList.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ELemType.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SingleList.cpp" />
+    <ClCompile Include="SingleNode.cpp" />
     <ClCompile Include="SqList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

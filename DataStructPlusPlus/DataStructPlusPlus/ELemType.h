@@ -19,6 +19,9 @@ public:
    /* ×Ö·ûÐÍ³ÉÔ± */
    char memChar;
 
+   ELemType();
+	~ELemType();
+
 protected:
 private:
 

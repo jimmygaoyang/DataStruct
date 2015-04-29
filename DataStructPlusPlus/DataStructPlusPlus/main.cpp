@@ -1,6 +1,7 @@
 #include "SqList.h"
 #include <iostream>
 #include <stdlib.h>
+#include "SingleList.h"
 using namespace std;
 int main()
 {
@@ -27,6 +28,31 @@ int main()
 	for (int i=1;i<lst1.GetLength();i++)
 	{
 		lst1.GetElem(i,e);
+		cout << e.mem << e.memChar<<endl;
+	}
+
+
+	SingleList singleL;
+	e.mem = 1;
+	e.memChar='u';
+	singleL.InsertElem(1,e);
+	e.mem = 2;
+	e.memChar = 'v';
+	singleL.InsertElem(2,e);
+	e.mem = 3;
+	e.memChar = 'o';
+	singleL.InsertElem(3,e);
+	for (int i=1; i<=singleL.GetLength();i++)
+	{
+		singleL.GetElem(i,&e);
+		cout << e.mem << e.memChar<<endl;
+	}
+
+	singleL.DelElem(2,&e);
+
+	for (int i=1; i<=singleL.GetLength();i++)
+	{
+		singleL.GetElem(i,&e);
 		cout << e.mem << e.memChar<<endl;
 	}
 

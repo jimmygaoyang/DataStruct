@@ -21,12 +21,27 @@
     <ClInclude Include="SqList.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="SingleList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SqList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ELemType.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
