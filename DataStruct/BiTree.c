@@ -78,7 +78,7 @@ int InOrderTraverse_Prc2(struct BiTreeObj* TObj,BiTree T)
 	
 	while (p || !StackEmpty(&StackTest))
 	{
-		if(p){ Push(&StackTest, p); p = p->lchild}
+		if(p){ Push(&StackTest, p); p = p->lchild;}
 		else
 		{
 			Pop(&StackTest,&p); 
